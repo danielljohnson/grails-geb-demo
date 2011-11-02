@@ -1,6 +1,6 @@
 package demo;
 
-import geb.Page
+import demo.pages.*
 
 using "geb"
 
@@ -40,30 +40,5 @@ scenario "View a single book", {
 		at BookListPage
 		
 		assert page.bookLinks.size() == 2
-	}
-}
-
-class HomePage extends Page {
-	static at = { title == "Home Page" }
-	static content = {
-		booksLink { $('#books_link') }
-	}
-}
-
-class BookListPage extends Page {
-	static at = { title == "Book List" }
-	static content = {
-		bookLink(wait: true, to: BookDetailPage) { title ->
-			$(".book_link", text: title)
-		}
-		
-		bookLinks { $('.book_link') }
-	}
-}
-
-class BookDetailPage extends Page {
-	static at = { title == "Book Details"}
-	static content = {
-		backLink { $('#back_link') }
 	}
 }
