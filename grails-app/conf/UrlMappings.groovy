@@ -6,6 +6,11 @@ class UrlMappings {
 	      controller = "book"
 	      action = [GET: "list"]
 	    }
+	
+		"/book/edit/$id" {
+	      controller = "book"
+	      action = [GET: "edit"]
+	    }
 		
 		"/book/$id?"(resource: "book")
 

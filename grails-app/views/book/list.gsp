@@ -5,11 +5,32 @@
 </head>
 <body>
 
-<h2>Books</h2>
+<h1>Books</h1>
 
-<g:each in="${books}" var="book">
-	<p><g:link action="show" id="${book.id}" class="book_link">${book.title}</g:link></p>
-</g:each>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<table class="zebra-striped">
+	<thead>
+		<tr>
+			<th>Title</th>
+			<th>Author</th>
+			<th>Category</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<g:each in="${books}" var="book">
+			<tr>
+				<td>${book.title}</td>
+				<td>${book.author}</td>
+				<td>${book.category.title}</td>
+				<td><g:link action="show" id="${book.id}" class="btn book_link">View</g:link> <g:link action="edit" id="${book.id}" class="btn">Edit</g:link></td>
+			</tr>
+		</g:each>
+	</tbody>
+</table>
+
+<p><a class="btn" href="${createLinkTo(dir:'')}">Back</a></p>
 
 </body>
 </html>

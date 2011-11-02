@@ -1,6 +1,10 @@
 package demo
 
+import demo.Category
+
 class Book {
+	
+	static belongsTo = [ category: Category ]
 	
 	String title
 	String author
