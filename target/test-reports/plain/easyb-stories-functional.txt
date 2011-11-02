@@ -1,0 +1,14 @@
+1 scenario executed successfully.
+
+  Story: book
+
+
+    scenario View a single book
+      when we go the homepage
+      then we are on the homepage
+      when we click the book list link
+      then we are on the book list page
+      when we click a book detail link
+      then we are on a book detail page
+      when we click the back link
+      then we are on the book list page again
