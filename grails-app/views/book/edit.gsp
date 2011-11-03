@@ -26,7 +26,7 @@
 		<label>Category: </label>
 		
 		<div class="input">
-			<g:select name="category" from="${categories}" value="${book.category.id}" optionKey="id" optionValue="title" />
+			<g:select name="category" from="${categories}" value="${book.category.id}" optionKey="id" optionValue="title" size="1" />
 		</div>
 	</div>
 	
