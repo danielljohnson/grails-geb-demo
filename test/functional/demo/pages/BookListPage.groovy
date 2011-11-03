@@ -1,12 +1,16 @@
+package demo.pages
+
 import geb.Page
 
 class BookListPage extends Page {
 	static at = { title == "Book List" }
 	static content = {
-		bookLink(wait: true, to: BookDetailPage) { title ->
-			$(".book_link", text: title)
+		bookDetailLink(wait: true, to: BookDetailPage) {
+			$(".view", 0)
 		}
 		
-		bookLinks { $('.book_link') }
+		bookEditLink(wait: true, to: BookEditPage) {
+			$(".edit", 0)
+		}
 	}
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-<title>Book Details</title>
+<title>Edit Book</title>
 <meta name="layout" content="main" />
 </head>
 <body>

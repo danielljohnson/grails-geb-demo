@@ -1,14 +1,23 @@
-1 scenario executed successfully.
+2 scenarios executed, but status is failure! Total failures: 1
 
-  Story: book
+  Story: book edit
 
 
-    scenario View a single book
+    scenario Edit a book
+      when we go the book list page
+      then we are on the book list page [FAILURE: not at page class demo.pages.BookListPage]
+      when we click a book detail link
+      then we are on a book detail page [FAILURE: not at page class demo.pages.BookDetailPage]
+      when we click an book edit link [FAILURE: condition did not pass in 5.0 seconds (failed with exception)]
+      then we are on a book edit page [FAILURE: No such property: BookEditlPage for class: demo.BookEditStory]
+
+  Story: book view
+
+
+    scenario View a book detail page
       when we go the homepage
       then we are on the homepage
       when we click the book list link
       then we are on the book list page
       when we click a book detail link
       then we are on a book detail page
-      when we click the back link
-      then we are on the book list page again

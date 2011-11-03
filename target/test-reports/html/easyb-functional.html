@@ -65,10 +65,10 @@
             </thead>
             <tbody>
               <tr class='primaryRow'>
-                <td>1</td>
+                <td>2</td>
+                <td class='stepResultFailed'>1</td>
                 <td class=''>0</td>
-                <td class=''>0</td>
-                <td>9.517</td>
+                <td>17.377</td>
               </tr>
             </tbody>
           </table>
@@ -85,11 +85,11 @@
             </thead>
             <tbody>
               <tr class='primaryRow'>
-                <td>1</td>
-                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td class='stepResultFailed'>1</td>
                 <td class=''>0</td>
-                <td class=''>0</td>
-                <td>9.517</td>
+                <td>17.377</td>
               </tr>
             </tbody>
           </table>
@@ -132,13 +132,13 @@
       <tr class='primaryRow'>
         <td>
          
-          <a href="#" onclick="$('scenarios_for_story_' + 0).toggle(); return false;">book</a>
+          <a href="#" onclick="$('scenarios_for_story_' + 0).toggle(); return false;">book edit</a>
          
         </td>
         <td>1</td>
+        <td class='stepResultFailed'>1</td>
         <td class=''>0</td>
-        <td class=''>0</td>
-        <td>9.517</td>
+        <td>15.621</td>
       </tr>
 
        
@@ -148,9 +148,194 @@
             <tbody>
               
               <tr class='primaryScenarioRow'>
-                <td title='Scenario'>View a single book</td>
+                <td title='Scenario'>Edit a book</td>
+                <td title='Result' class='stepResultFailed'>failure</td>
+                <td title='Time (sec)'>15.388</td>
+              </tr>
+              
+              <tr class='scenarioComponents'>
+                <td>when we go the book list page</td>
+                <td class=''></td>
+                <td />
+              </tr>
+              
+              
+              <tr class='scenarioComponents'>
+                <td>then we are on the book list page</td>
+                <td class='stepResultFailed'>failure</td>
+                <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  <strong>org.easyb.exception.VerificationException: not at page class demo.pages.BookListPage</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:202)
+                  
+                  <br />geb.easyb.GebPlugin$_beforeWhen_closure1.doCall(GebPlugin.groovy:63)
+                  
+                  <br />
+                </td>
+              </tr>
+              
+              
+              <tr class='scenarioComponents'>
+                <td>when we click a book detail link</td>
+                <td class=''></td>
+                <td />
+              </tr>
+              
+              
+              <tr class='scenarioComponents'>
+                <td>then we are on a book detail page</td>
+                <td class='stepResultFailed'>failure</td>
+                <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  <strong>org.easyb.exception.VerificationException: not at page class demo.pages.BookDetailPage</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:202)
+                  
+                  <br />geb.easyb.GebPlugin$_beforeWhen_closure1.doCall(GebPlugin.groovy:63)
+                  
+                  <br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                  
+                  <br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                  
+                  <br />
+                </td>
+              </tr>
+              
+              
+              <tr class='scenarioComponents'>
+                <td>when we click an book edit link</td>
+                <td class='stepResultFailed'>failure</td>
+                <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  <strong>geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:102)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:202)
+                  
+                  <br />geb.waiting.Wait.waitFor(Wait.groovy:108)
+                  
+                  <br />geb.waiting.Wait$waitFor.call(Unknown Source)
+                  
+                  <br />
+                </td>
+              </tr>
+              
+              
+              <tr class='scenarioComponents'>
+                <td>then we are on a book edit page</td>
+                <td class='stepResultFailed'>failure</td>
+                <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  <strong>groovy.lang.MissingPropertyException: No such property: BookEditlPage for class: demo.BookEditStory</strong>
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.PogoGetPropertySite.getProperty(PogoGetPropertySite.java:49)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGroovyObjectGetProperty(AbstractCallSite.java:239)
+                  
+                  <br />demo.BookEditStory$_run_closure1_closure7.doCall(BookEditStory.groovy:29)
+                  
+                  <br />sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                  
+                  <br />sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                  
+                  <br />sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                  
+                  <br />java.lang.reflect.Method.invoke(Method.java:597)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSite.invoke(PogoMetaMethodSite.java:225)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:51)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
+                  
+                  <br />
+                </td>
+              </tr>
+              
+              
+              
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      
+      
+      <tr class='secondaryRow'>
+        <td>
+         
+          <a href="#" onclick="$('scenarios_for_story_' + 1).toggle(); return false;">book view</a>
+         
+        </td>
+        <td>1</td>
+        <td class=''>0</td>
+        <td class=''>0</td>
+        <td>1.756</td>
+      </tr>
+
+       
+      <tr id='scenarios_for_story_1' class='scenariosForStory' style='display:none;'>
+        <td colspan='5'>
+          <table class='scenariosForStoriesTable'>
+            <tbody>
+              
+              <tr class='primaryScenarioRow'>
+                <td title='Scenario'>View a book detail page</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>9.376</td>
+                <td title='Time (sec)'>1.637</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -195,20 +380,6 @@
               </tr>
               
               
-              <tr class='scenarioComponents'>
-                <td>when we click the back link</td>
-                <td class=''></td>
-                <td />
-              </tr>
-              
-              
-              <tr class='scenarioComponents'>
-                <td>then we are on the book list page again</td>
-                <td class='stepResultSuccess'>success</td>
-                <td />
-              </tr>
-              
-              
               
             </tbody>
           </table>
@@ -226,8 +397,8 @@
 <div id='StoriesListPlain' style='display:none;'>
   <h2>Stories Text</h2>
   
-  <div>1 scenario executed successfully.</div>
-  <div><br/><br/>&nbsp;&nbsp;Story: book<br/><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario View a single book<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we go the homepage<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the homepage<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click the book list link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the book list page<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click a book detail link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on a book detail page<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click the back link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the book list page again</div>
+  <div>2 scenarios executed, but status is failure! Total failures: 1</div>
+  <div><br/><br/>&nbsp;&nbsp;Story: book edit<br/><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario Edit a book<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we go the book list page<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the book list page&nbsp;<span style='color:#FF8080;'>[FAILURE: not at page class demo.pages.BookListPage]</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click a book detail link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on a book detail page&nbsp;<span style='color:#FF8080;'>[FAILURE: not at page class demo.pages.BookDetailPage]</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click an book edit link&nbsp;<span style='color:#FF8080;'>[FAILURE: condition did not pass in 5.0 seconds (failed with exception)]</span><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on a book edit page&nbsp;<span style='color:#FF8080;'>[FAILURE: No such property: BookEditlPage for class: demo.BookEditStory]</span><br/><br/>&nbsp;&nbsp;Story: book view<br/><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario View a book detail page<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we go the homepage<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the homepage<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click the book list link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on the book list page<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when we click a book detail link<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then we are on a book detail page</div>
 </div>
 
       </div>

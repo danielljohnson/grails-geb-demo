@@ -11,7 +11,7 @@ driver = {
 
 environments {
 
-	// run as grails -Dgeb.env=firefox test-app
+	// run as grails -Dgeb.env=firefox test-app functional:easyb
 	// See: http://code.google.com/p/selenium/wiki/FirefoxDriver
 	firefox {
 		driver = { new FirefoxDriver() }

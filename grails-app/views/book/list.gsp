@@ -24,7 +24,7 @@
 				<td>${book.title}</td>
 				<td>${book.author}</td>
 				<td>${book.category.title}</td>
-				<td><g:link action="show" id="${book.id}" class="btn book_link">View</g:link> <g:link action="edit" id="${book.id}" class="btn">Edit</g:link></td>
+				<td><g:link action="show" id="${book.id}" class="btn view">View</g:link> <g:link action="edit" id="${book.id}" class="btn edit">Edit</g:link></td>
 			</tr>
 		</g:each>
 	</tbody>
