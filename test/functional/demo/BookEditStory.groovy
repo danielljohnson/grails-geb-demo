@@ -31,34 +31,32 @@ scenario "Edit a book", {
 	}
 	
 	when "we enter a new title", {
-		page.nameField << "A new title"
+		page.nameField.value("A new title")
 	}
 	
 	and "we enter a new author", {
-		page.authorField << "A new author"
+		page.authorField.value("A new author")
 	}
 	
 	and "we change the category", {
-		//assert page.$('select[name="category"]').size() == 1
-		
 		assert page.categoryField.size() == 1
 		
-		//assert page.categoryField.size() != 2
+		assert page.categoryField.value() == "1"
 		
-		//assert page.$('form').category.size() == 1
+		page.categoryField.value("2")
 		
-		//page.$('form').category = "1"
-		
-		//page.$('form').category.value(1)
-		
-		//page.categoryField.value("1")
-		
-		page.categoryField = "Fiction"
-		
-		//page.categoryField = 1
+		assert page.categoryField.value() == "2"
 	}
 	
 	and "we click the save button", {
 		page.saveButton.click()
+	}
+	
+	then "we are at the book detail page", {
+		at BookDetailPage
+		
+		assert page.titleHeader.text() == "Title: A new title"
+		assert page.authorHeader.text() == "Author: A new author"
+		assert page.categoryHeader.text() == "Category: Fiction"
 	}
 }

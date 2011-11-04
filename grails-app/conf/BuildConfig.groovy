@@ -18,7 +18,7 @@ grails.project.dependency.resolution = {
         // from public Maven repositories
         mavenLocal()
         mavenCentral()
-		mavenRepo "http://nexus.codehaus.org/content/repositories/snapshots"
+		mavenRepo "https://nexus.codehaus.org/content/repositories/snapshots"
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
@@ -37,7 +37,7 @@ grails.project.dependency.resolution = {
 		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") { exclude "xml-apis" }
 		test "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
 		test "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
-		test "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
+		test "org.seleniumhq.selenium:selenium-support:2.9.0"
     }
 	
 	plugins {
