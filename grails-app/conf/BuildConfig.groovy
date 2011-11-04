@@ -18,13 +18,14 @@ grails.project.dependency.resolution = {
         // from public Maven repositories
         mavenLocal()
         mavenCentral()
+		mavenRepo "http://nexus.codehaus.org/content/repositories/snapshots"
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
     }
 	
-	def gebVersion = "0.6.0"
+	def gebVersion = "0.6.1"
 	def seleniumVersion = "2.9.0"
 	
     dependencies {
@@ -34,12 +35,14 @@ grails.project.dependency.resolution = {
 		test "org.codehaus.geb:geb-spock:$gebVersion"
 		test "org.codehaus.geb:geb-easyb:$gebVersion"
 		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") { exclude "xml-apis" }
+		test "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
 		test "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
+		test "org.seleniumhq.selenium:selenium-support:$seleniumVersion"
     }
 	
 	plugins {
 		test ":spock:0.5-groovy-1.7"
-		test ":geb:0.6.0"
+		test ":geb:0.6.1"
 		test ":easyb:2.0.5"
 	}
 }

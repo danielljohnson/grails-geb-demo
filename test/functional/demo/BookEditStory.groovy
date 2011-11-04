@@ -6,7 +6,7 @@ using "geb"
 
 scenario "Edit a book", {
 	
-	when "we go the homepage", { 
+	when "we go the homepage", {
 		to HomePage
 	}
 
@@ -39,13 +39,13 @@ scenario "Edit a book", {
 	}
 	
 	and "we change the category", {
-		assert page.$('select[name="category"]').size() == 1
+		//assert page.$('select[name="category"]').size() == 1
 		
 		assert page.categoryField.size() == 1
 		
-		assert page.categoryField.size() != 2
+		//assert page.categoryField.size() != 2
 		
-		assert page.$('form').category.size() == 1
+		//assert page.$('form').category.size() == 1
 		
 		//page.$('form').category = "1"
 		
@@ -53,7 +53,7 @@ scenario "Edit a book", {
 		
 		//page.categoryField.value("1")
 		
-		page.categoryField = "1"
+		page.categoryField = "Fiction"
 		
 		//page.categoryField = 1
 	}

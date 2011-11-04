@@ -1024,7 +1024,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -1041,7 +1041,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:161)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -1117,7 +1117,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:161)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -1187,20 +1187,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:18:05,018 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:18:05,018 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:18:15,586 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.hibernate.TypeMismatchException: Provided id of the wrong type for class demo.Book. Expected: class java.lang.Long, got class java.lang.String
@@ -1548,7 +1548,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -1564,7 +1564,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -1639,7 +1639,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -1709,20 +1709,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:18:22,721 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:18:22,721 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:18:37,072 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.hibernate.TypeMismatchException: Provided id of the wrong type for class demo.Book. Expected: class java.lang.Long, got class java.lang.String
@@ -2386,7 +2386,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -2402,7 +2402,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2477,7 +2477,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2547,20 +2547,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:19:31,408 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:19:31,408 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:19:33,960 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -2568,7 +2568,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -2584,7 +2584,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2659,7 +2659,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2729,20 +2729,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:19:33,961 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:19:33,961 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:19:40,244 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -2750,7 +2750,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -2766,7 +2766,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2841,7 +2841,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -2911,20 +2911,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:19:40,246 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:19:40,246 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:19:57,425 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -2932,7 +2932,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -2948,7 +2948,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3023,7 +3023,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3093,20 +3093,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:19:57,426 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:19:57,426 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:20:00,563 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -3114,7 +3114,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -3130,7 +3130,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3205,7 +3205,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3275,20 +3275,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:20:00,564 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:20:00,564 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:20:23,364 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -3296,7 +3296,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -3312,7 +3312,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3387,7 +3387,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3457,20 +3457,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:20:23,366 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:20:23,366 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:21:25,512 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -3478,7 +3478,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -3494,7 +3494,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3569,7 +3569,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3639,20 +3639,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:21:25,514 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:21:25,514 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:21:30,559 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -3660,7 +3660,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -3676,7 +3676,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3751,7 +3751,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3821,20 +3821,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:21:30,560 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:21:30,560 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:26:24,389 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
@@ -3842,7 +3842,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:156)
 	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:235)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -3858,7 +3858,7 @@ java.lang.NullPointerException: Cannot get property 'title' on null object
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -3933,7 +3933,7 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$evaluate.callCurrent(Unknown Source)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -4003,20 +4003,20 @@ org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error eval
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 1 more
 2011-11-02 12:26:24,390 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 12:26:24,390 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [book.title] on line [1]: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: java.lang.NullPointerException: Cannot get property 'title' on null object
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_show_gsp:19)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp$_run_closure1.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_show_gsp:19)
 	... 2 more
 2011-11-02 12:26:27,562 [http-8080-3] ERROR StackTrace  - Sanitizing stacktrace:
 org.hibernate.TypeMismatchException: Provided id of the wrong type for class demo.Book. Expected: class java.lang.Long, got class java.lang.String
@@ -15389,7 +15389,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:161)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15399,7 +15399,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15441,7 +15441,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15451,7 +15451,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15497,7 +15497,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$invokeTag.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -15586,7 +15586,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15625,7 +15625,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:161)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15635,7 +15635,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15677,7 +15677,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15687,7 +15687,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15733,7 +15733,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$invokeTag.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -15811,7 +15811,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15828,7 +15828,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:40)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:120)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15862,7 +15862,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:161)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15872,7 +15872,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15914,7 +15914,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15924,7 +15924,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -15970,7 +15970,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$invokeTag.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -16041,7 +16041,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 17:59:53,807 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Error executing tag <g:form>: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
-Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails_geb_demo/grails-app/views/book/edit.gsp:22
+Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails-geb-demo/grails-app/views/book/edit.gsp:22
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.throwRootCause(GroovyPage.java:442)
 	at org.codehaus.groovy.grails.web.pages.GroovyPage.invokeTag(GroovyPage.java:430)
 	at sun.reflect.GeneratedMethodAccessor172.invoke(Unknown Source)
@@ -16058,7 +16058,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.callCurrent(PogoMetaClassSite.java:66)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -16068,7 +16068,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:149)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
@@ -16114,7 +16114,7 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.codehaus.groovy.grails.web.pages.GroovyPage$invokeTag.callCurrent(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:44)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at org.codehaus.groovy.grails.web.pages.GroovyPageWritable.writeTo(GroovyPageWritable.java:203)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:148)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -16185,80 +16185,80 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	... 1 more
 Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
 	... 6 more
 Caused by: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	... 6 more
 2011-11-02 17:59:53,824 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Error executing tag <g:form>: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
-Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails_geb_demo/grails-app/views/book/edit.gsp:22
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails-geb-demo/grails-app/views/book/edit.gsp:22
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	... 4 more
 Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
 	... 6 more
 Caused by: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	... 6 more
 2011-11-02 17:59:53,832 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
 	... 6 more
 Caused by: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	... 6 more
 2011-11-02 17:59:53,838 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	... 6 more
 2011-11-02 17:59:53,846 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	at java.lang.Thread.run(Thread.java:680)
 2011-11-02 17:59:53,851 [http-8080-1] ERROR StackTrace  - Sanitizing stacktrace:
 org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error processing GroovyPageView: Error executing tag <g:form>: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
-Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails_geb_demo/grails-app/views/book/edit.gsp:22
+Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails-geb-demo/grails-app/views/book/edit.gsp:22
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.handleException(GroovyPageView.java:180)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderWithTemplateEngine(GroovyPageView.java:153)
 	at org.codehaus.groovy.grails.web.servlet.view.GroovyPageView.renderMergedOutputModel(GroovyPageView.java:81)
@@ -16328,22 +16328,22 @@ Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Ob
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
 	at java.lang.Thread.run(Thread.java:680)
 Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Error executing tag <g:form>: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
-Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails_geb_demo/grails-app/views/book/edit.gsp:22
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:42)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:48)
+Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object) at /Users/Dan/Sites/medullan/grails-geb-demo/grails-app/views/book/edit.gsp:22
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:42)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp.run(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:48)
 	... 1 more
 Caused by: org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [Category.list()] on line [18]: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp)
 	... 4 more
 Caused by: org.codehaus.groovy.runtime.InvokerInvocationException: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
 	... 6 more
 Caused by: groovy.lang.MissingMethodException: No signature of method: static groovy.lang.Category.list() is applicable for argument types: () values: []
 Possible solutions: is(java.lang.Object), wait(), wait(long), use([Ljava.lang.Object;), find(groovy.lang.Closure), print(java.lang.Object)
-	at Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails_geb_demo_grails_app_views_book_edit_gsp:39)
+	at Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp$_run_closure2_closure7_closure17.doCall(Users_Dan_Sites_medullan_grails-geb-demo_grails_app_views_book_edit_gsp:39)
 	... 6 more
 2011-11-02 18:17:13,611 [http-8080-2] ERROR StackTrace  - Sanitizing stacktrace:
 groovy.lang.MissingPropertyException: No such property: categories for class: demo.BookController
