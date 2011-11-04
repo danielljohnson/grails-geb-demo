@@ -1,5 +1,7 @@
 package demo
 
+import grails.converters.*;
+
 class BookController {
 	static layout = 'main'
 
@@ -32,6 +34,18 @@ class BookController {
 		
 		if (book.save()) {
 			redirect(action:"show", id: book.id)
+		}
+	}
+	
+	def search = {
+		List<Book> books = Book.findAllByTitle(params.title)
+		
+		if (books) {
+			render books as JSON
+		} else {
+			Map error = ["error": "no results"]
+			
+			render error as JSON
 		}
 	}
 }

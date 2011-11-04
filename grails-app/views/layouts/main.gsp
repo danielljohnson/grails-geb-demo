@@ -6,6 +6,7 @@
 <link rel="stylesheet/less" href="${resource(dir:'css',file:'main.less')}" />
 <g:javascript library="less-1.1.3.min" />
 <g:javascript library="jquery" />
+<g:javascript library="main" />
 <g:layoutHead />
 </head>
 <body>

@@ -12,14 +12,14 @@
 		<label>Title: </label>
 		
 		<div class="input">
-			<input type="text" name="title" value="${book.title}">
+			<input type="text" name="title" value="${book.title}" />
 		</div>
 	</div>
 	<div class="clearfix">
 		<label>Author: </label>
 		
 		<div class="input">
-			<input type="text" name="author" value="${book.author}">
+			<input type="text" name="author" value="${book.author}" />
 		</div>
 	</div>
 	<div class="clearfix">
