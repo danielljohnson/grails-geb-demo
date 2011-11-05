@@ -19,7 +19,7 @@ scenario "Search for a book", {
 	}
 	
 	and "we click the submit button", {
-		page.searchSubmitButton.click();
+		page.searchSubmitButton.click()
 		
 		waitFor { page.theResultsList.present }
 	}
