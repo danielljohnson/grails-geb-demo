@@ -1,0 +1,11 @@
+1 scenario executed successfully.
+
+  Story: book search
+
+
+    scenario Search for a book
+      when we go the homepage
+      then we are on the homepage
+      when we enter a title into the search form
+      when we click the submit button
+      then we should have one or more results
