@@ -7,7 +7,7 @@ class HomePage extends Page {
 	static content = {
 		bookListLink(to: BookListPage) { $('#books_link') }
 		titleField { $('input[name="title"]') }
-		searchSubmitButton { $('#search_submit') }
+		searchSubmitButton(wait: true, to: HomePage) { $('#search_submit') }
 		theResultsList(required: false) { $('#search_results ul') }
 		theFirstResult(required: false) { $('#search_results a', 0) }
 	}

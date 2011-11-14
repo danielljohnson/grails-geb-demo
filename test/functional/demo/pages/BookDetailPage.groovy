@@ -9,6 +9,5 @@ class BookDetailPage extends Page {
 		titleHeader { $('h2', 0) }
 		authorHeader { $('h4', 0) }
 		categoryHeader { $('h4', 1) }
-		backLink { $('#back_link') }
 	}
 }

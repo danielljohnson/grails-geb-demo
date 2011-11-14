@@ -23,7 +23,7 @@ scenario "View a book detail page", {
 	}
 	
 	when "we click a book detail link", {
-		page.bookDetailLink().click()
+		page.bookDetailLink.click()
 	}
 	
 	then "we are on a book detail page", {

@@ -8,9 +8,8 @@ class BookEditPage extends Page {
 		nameField { $('input[name="title"]') }
 		authorField { $('input[name="author"]') }
 		categoryField { $('select[name="category"]') }
-		saveButton(wait: true, to: BookDetailPage) { 
+		saveButton(to: BookDetailPage) { 
 			$('button[type="submit"]')
 		}
-		backLink { $('#back_link') }
 	}
 }

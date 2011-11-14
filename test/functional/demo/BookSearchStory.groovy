@@ -21,11 +21,10 @@ scenario "Search for a book", {
 	and "we click the submit button", {
 		page.searchSubmitButton.click()
 		
-		waitFor { page.theResultsList.present }
+		waitFor { page.theResultsList.size() > 0 }
 	}
 	
 	then "we should have one or more results", {
-		assert page.theResultsList.size() > 0
 		assert page.theFirstResult.text() == "The Shining by Stephen King"
 	}
 }

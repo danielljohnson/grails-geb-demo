@@ -23,7 +23,7 @@ scenario "Edit a book", {
 	}
 	
 	when "we click an book edit link", {
-		page.bookEditLink().click()
+		page.bookEditLink.click()
 	}
 	
 	then "we are on a book edit page", {
