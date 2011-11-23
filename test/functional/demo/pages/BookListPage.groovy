@@ -7,5 +7,6 @@ class BookListPage extends Page {
 	static content = {
 		bookDetailLink(to: BookDetailPage) { $(".view", 0) }
 		bookEditLink(to: BookEditPage) { $(".edit", 0) }
+		backButton(to: HomePage) { $("#back") }
 	}
 }

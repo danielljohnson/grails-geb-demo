@@ -30,7 +30,7 @@
 	</tbody>
 </table>
 
-<p><a class="btn" href="${createLinkTo(dir:'')}">Back</a></p>
+<p><a id="back" class="btn" href="${createLinkTo(dir:'')}">Back</a></p>
 
 </body>
 </html>
