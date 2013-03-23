@@ -17,14 +17,14 @@
 
 <form method="post" action="" class="form-stacked" id="search_form">
     <div class="clearfix">
-		<div class="input">
-			<input type="text" name="title" id="title" />
-		</div>
-	</div>
-	
-	<div class="clearfix" style="margin: 18px 0 0">
-		<button class="btn primary" type="submit" id="search_submit">Submit</button></p>
-	</div>
+        <div class="input">
+            <input type="text" name="title" id="title" />
+        </div>
+    </div>
+    
+    <div class="clearfix" style="margin: 18px 0 0">
+        <button class="btn primary" type="submit" id="search_submit">Submit</button></p>
+    </div>
 </form>
 
 <div id="search_results">

@@ -10,19 +10,19 @@
 <g:layoutHead />
 </head>
 <body>
-	
+    
 <div class="topbar">
-	<div class="fill">
-		<div class="container">
-			<a class="brand" href="${createLinkTo(dir:'')}">Grails Geb Demo</a>
-		</div>
-	</div>
+    <div class="fill">
+        <div class="container">
+            <a class="brand" href="${createLinkTo(dir:'')}">Grails Geb Demo</a>
+        </div>
+    </div>
 </div>
 
 <div class="container">
-	<div class="content">
-		<g:layoutBody />
-	</div>
+    <div class="content">
+        <g:layoutBody />
+    </div>
 </div>
 
 </body>
